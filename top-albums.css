@@ -1,0 +1,117 @@
+html, body {
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-variant-ligatures: none;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+
+  margin-bottom: 8rem;
+}
+
+:root {
+  --anchor-color-light: rgb(11, 76, 140);
+  --anchor-color-dark: rgb(29, 155, 209);
+}
+
+
+/*@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(26, 29, 33);
+    color: rgb(209, 210, 211);
+  }
+
+  a {
+    color: var(--anchor-color-dark);
+    text-decoration-color: var(--anchor-color-dark);
+  }
+}*/
+
+
+/*@media (prefers-color-scheme: light) {*/
+  body {
+    background-color: white;
+    color: rgb(29, 28, 29);
+  }
+
+  a {
+    color: var(--anchor-color-light);
+    text-decoration-color: var(--anchor-color-light);
+  }
+/*}*/
+
+a {
+  text-decoration-line: none;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  max-width: 680px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin-top: 3.6rem;
+}
+
+.album h3 {
+  font-size: 1.2rem;
+  font-weight: 900;
+  line-height: 30px;
+  margin-bottom: 4px;
+}
+
+.album p {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+.album p.precedes-list {
+  margin: 0;
+}
+
+.album ul {
+  margin: 0 0 1rem 1.5rem;
+  padding: 0;
+  list-style-type: circle;
+}
+
+.album ul ul {
+  list-style-type: square;
+  margin-bottom: 0;
+}
+
+.emoji {
+  height: 1.2rem;
+  width: 1.2rem;
+  line-height: 1.2;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+
+  background-size:  contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.emoji.feelin-myself {
+  background-image: url(https://emoji.slack-edge.com/T4NDG8VNZ/feelin-myself/5bc6bc9b58384c7e.png);
+}
+
+.emoji.wild {
+  background-image: url("https://emoji.slack-edge.com/T4NDG8VNZ/wild/9a9d06951392250c.gif");
+}
+
+figure {
+  margin: 0;
+}
+
+figure ol {
+  margin: 0;
+}
