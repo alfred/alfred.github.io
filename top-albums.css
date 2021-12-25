@@ -102,7 +102,7 @@ h1 {
 }
 
 .emoji.feelin-myself {
-  background-image: url(https://emoji.slack-edge.com/T4NDG8VNZ/feelin-myself/5bc6bc9b58384c7e.png);
+  background-image: url("https://emoji.slack-edge.com/T4NDG8VNZ/feelin-myself/5bc6bc9b58384c7e.png");
 }
 
 .emoji.wild {
