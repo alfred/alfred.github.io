@@ -52,6 +52,7 @@ a:hover {
   margin: 0 auto;
   position: relative;
   max-width: 680px;
+  padding: 0 0.75rem;
 }
 
 h1 {
