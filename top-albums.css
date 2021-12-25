@@ -15,7 +15,7 @@ html, body {
 }
 
 
-/*@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   body {
     background-color: rgb(26, 29, 33);
     color: rgb(209, 210, 211);
@@ -25,10 +25,10 @@ html, body {
     color: var(--anchor-color-dark);
     text-decoration-color: var(--anchor-color-dark);
   }
-}*/
+}
 
 
-/*@media (prefers-color-scheme: light) {*/
+@media (prefers-color-scheme: light) {
   body {
     background-color: white;
     color: rgb(29, 28, 29);
@@ -38,7 +38,7 @@ html, body {
     color: var(--anchor-color-light);
     text-decoration-color: var(--anchor-color-light);
   }
-/*}*/
+}
 
 a {
   text-decoration-line: none;
