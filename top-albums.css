@@ -101,14 +101,6 @@ h1 {
   background-position: 50% 50%;
 }
 
-.emoji.feelin-myself {
-  background-image: url("https://emoji.slack-edge.com/T4NDG8VNZ/feelin-myself/5bc6bc9b58384c7e.png");
-}
-
-.emoji.wild {
-  background-image: url("https://emoji.slack-edge.com/T4NDG8VNZ/wild/9a9d06951392250c.gif");
-}
-
 figure {
   margin: 0;
 }
