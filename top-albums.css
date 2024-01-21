@@ -9,6 +9,10 @@ html, body {
   margin-bottom: 8rem;
 }
 
+footer {
+  margin-top: 32px;
+}
+
 :root {
   --anchor-color-light: rgb(11, 76, 140);
   --anchor-color-dark: rgb(29, 155, 209);
@@ -88,6 +92,22 @@ h1 {
   margin-bottom: 0;
 }
 
+.album blockquote {
+  margin: 0;
+  padding: 0px 0px 0px 16px;
+  position: relative;
+}
+
+.album blockquote::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: #dadada;
+  border-radius: 4px;
+}
+
 .emoji {
   height: 1.2rem;
   width: 1.2rem;
@@ -107,4 +127,33 @@ figure {
 
 figure ol {
   margin: 0;
+}
+
+.rhyme-scheme--1 {
+  color: white;
+  background-color: #00C2D1;
+}
+
+.rhyme-scheme--2 {
+  color: white;
+  background-color: #DB504A;
+}
+
+.rhyme-scheme--3 {
+  color: black;
+  background-color: #E3D26F;
+}
+
+.rhyme-scheme--4 {
+  color: white;
+  background-color: #084C61;
+}
+
+ul.horizontal {
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul.horizontal > li {
+  display: inline-block;
 }
